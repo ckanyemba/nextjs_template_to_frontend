@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-photo-yt",
+  "name": "enmesh",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.2.0",
-    "react": "18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0"
+    "@eslint/eslintrc": "^1.3.3",
+    "next": "^13.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "eslint": "^8.18.0",
-    "eslint-config-next": "12.2.0",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.2.7"
+    "eslint": "8.26.0",
+    "eslint-config-next": "12.3.1",
+    "sass": "^1.56.2"
   }
 }

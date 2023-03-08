@@ -1,13 +1,15 @@
-import Navbar from '../components/Navbar';
-import '../styles/globals.css';
+import MainLayout from '../src/components/layout/main-layout';
+import '../styles/globals.css'
+import '../styles/general.sass';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navbar />
-      <Component {...pageProps} />
+      <MainLayout>
+        <Component {...pageProps} />
+      </MainLayout>
     </>
   );
 }
 
-export default MyApp;
+export default MyApp
